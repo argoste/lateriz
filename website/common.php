@@ -6,11 +6,19 @@
     <link rel="stylesheet" href="fancy.css"
   </head>
   <body>
+     <script type="text/javascript" src="CollapsibleLists.js"></script>
+    <script type="text/javascript">
+      // code by Stephen Morley   http://code.stephenmorley.org
+      // make the appropriate lists collapsible
+      window.onload = function () {
+      CollapsibleLists.apply();
+      }
+    </script>
     <nav>
       <ul class="collapsibleList">
-        <li title="About"><a href="intro.php">Introduction</a>
+        <li title="About" class="toplevel"><a href="intro.php">Introduction</a>
         </li>
-        <li title="The motivations to make">Goals
+        <li title="The motivations to make" class="toplevel">Goals
           <ul>
             <li>Alternative user experience</li>
             <li>Learning experiment</li>
@@ -21,7 +29,7 @@
             <li>Environment protection</li>
           </ul>
         </li>
-        <li title="The things needed">Resources
+        <li title="The things needed" class="toplevel">Resources
           <ul>            
             <li>Time</li>
             <li>Money</li>
@@ -29,7 +37,7 @@
             <li>Feasibility study</li>
           </ul>
         </li>
-        <li title="The process of making">Activities
+        <li title="The process of making" class="toplevel">Activities
           <ul>
             <li>Learn, Collect, Summarize</li>
             <li>Design</li>
@@ -39,7 +47,7 @@
             <li>Write Documentation</li>
           </ul>
         </li>
-        <li title="The things made">Products
+        <li title="The things made" class="toplevel">Products
           <ul>
             <li>Hardware</li>
             <li>Software</li>

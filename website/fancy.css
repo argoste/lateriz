@@ -2,23 +2,46 @@ body {
   background: #EDEFEF;
 }
 nav {
-  box-sizing: border-box; 
-  width: 20%;
-  position: fixed; 
+  position: fixed;
   left: 0%;
   top: 0%;
-  color: #2E3C4C;
-  border: solid black thin;
-  padding: 0em;
+  box-sizing: border-box; 
+  width: 20%;
   margin: 0%;
-  background: #E5E5E5;
+  padding: 0em;
+  background: #CACBCE;
+  color: #000000;
   font-size: x-small;
   }
 nav ul {
-  background: ;
-  margin-left: 0.8em;
+  margin-left: 0em;
   margin-right: 0em;
-  padding: 0.2em;
+  padding-left: 2em;
+}
+nav li.toplevel {
+  color: black;
+  background: white;
+  margin-bottom: 2em;
+}
+a:link {
+  text-decoration: none;
+  color: #FF0000;
+}
+a:visited {
+  color: #7F0404;
+ }
+.collapsibleList li{
+  cursor:auto;
+  list-style-position: inside;
+  list-style: disc;
+}
+li.collapsibleListOpen{
+  list-style-image:url('button-opened.png');
+  cursor:pointer;
+}
+li.collapsibleListClosed{
+  list-style-image:url('button-closed.png');
+  cursor:pointer;
 }
 main {
   box-sizing: border-box;
@@ -28,22 +51,4 @@ main {
   position: relative; 
   left: 20%;
   padding: 1em;
-}
-
-a:link {
-  text-decoration: none;
-  color: #FF0000;
-}
-a:visited {
-  color: #7F0404;
- }
-a:hover {
-}
-a:active {
-  color: red;
-}
-#system {
-  position: fixed;
-  left: 0%;
-  top: 0%;
 }

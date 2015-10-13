@@ -13,4 +13,6 @@ For more information see the LAN website at
 Credits
 -------
 
-Stefano Carlesso <stefano.carlesso@yahoo.it>
+Main contributor is Stefano Carlesso      http://argo3.altervista.org
+
+CollapsibleLists.js by Stephen Morley - http://code.stephenmorley.org
