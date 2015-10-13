@@ -1,0 +1,49 @@
+body {
+  background: #EDEFEF;
+}
+nav {
+  box-sizing: border-box; 
+  width: 20%;
+  position: fixed; 
+  left: 0%;
+  top: 0%;
+  color: #2E3C4C;
+  border: solid black thin;
+  padding: 0em;
+  margin: 0%;
+  background: #E5E5E5;
+  font-size: x-small;
+  }
+nav ul {
+  background: ;
+  margin-left: 0.8em;
+  margin-right: 0em;
+  padding: 0.2em;
+}
+main {
+  box-sizing: border-box;
+  margin: 0%;
+  background: inherit;
+  width: 77%; 
+  position: relative; 
+  left: 20%;
+  padding: 1em;
+}
+
+a:link {
+  text-decoration: none;
+  color: #FF0000;
+}
+a:visited {
+  color: #7F0404;
+ }
+a:hover {
+}
+a:active {
+  color: red;
+}
+#system {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+}

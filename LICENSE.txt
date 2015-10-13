@@ -1,0 +1,4 @@
+All informative content and hardware design is release as CC-BY-SA.
+All software is released as GNU GPL v3.
+
+TODO: put here the actual licenses

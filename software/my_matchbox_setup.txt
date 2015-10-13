@@ -1,0 +1,10 @@
+#Matchbox is a window manager suited for small screen like embedded and netbooks.
+
+This is the current flow of execution on my EEEpc
+with every step calling the next one.
+
+  ...
+  startx
+  xinit
+  sh ~/.xinitrc
+  matchbox-session (a sh script) is /usr/bin/matchbox-session

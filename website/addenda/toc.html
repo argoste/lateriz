@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Table Of Contents</title>
+    <style>
+      .collapsibleList li{
+        marks: cross;
+        cursor:auto;
+      }
+      
+      li.collapsibleListOpen{
+        list-style-image:url('button-open.png');
+        cursor:pointer;
+      }
+      
+      li.collapsibleListClosed{
+        list-style-image:url('button-closed.png');
+        cursor:pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript" src="CollapsibleLists.js"
+            title="code by Stephen Morley">
+    </script>
+    <script type="text/javascript">
+      // code by Stephen Morley   http://code.stephenmorley.org
+      // make the appropriate lists collapsible
+      window.onload = function () {
+      CollapsibleLists.apply();
+      }
+    </script>
+
+    <h1>The APC Initiative</h1>
+    <ul class="collapsibleList">
+      <li title="About"><a href="intro.html" target="viewer">Introduction</a>
+      </li>
+      <li title="The motivations to make">Goals
+        <ul>
+          <li>Alternative user experience</li>
+          <li>Learning experiment</li>
+          <li>Made with my hands</li>
+          <li>Privacy and freedom</li>
+          <li>Workers' rights</li>
+          <li>Jobs in Europe</li>
+          <li>Environment protection</li>
+        </ul>
+      </li>
+      <li title="The things needed">Resources
+        <ul>            
+          <li>Time</li>
+          <li>Money</li>
+          <li>Capabilities</li>
+          <li>Feasibility study</li>
+        </ul>
+      </li>
+      <li title="The process of making">Activities
+        <ul>
+          <li>Learn, Collect, Summarize</li>
+          <li>Design</li>
+          <li>Develop</li>
+          <li>Test</li>
+          <li>Manufacture</li>
+          <li>Write Documentation</li>
+        </ul>
+      </li>
+      <li title="The things made">Products
+        <ul>
+          <li>Hardware</li>
+          <li>Software</li>
+          <li>Documentation</li>
+        </ul>
+      </li>
+   </ul>
+
+  </body>
+
+</html>
