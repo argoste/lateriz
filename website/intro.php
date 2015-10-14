@@ -11,7 +11,8 @@ $mycontent = <<< MAIN
         <figcaption>APC mind map</figcaption>
     </figure>
     <h2>About</h2>
-    <p>This is a <dfn title="Immagine it like a tree that has a trunc
+    <p>The table of contents of this Draft is a
+		<dfn title="Immagine it like a tree that has a trunc
     dividing in several branch, every branch has one parent and can have many
     children">hierarchical list</dfn>, but should be a
     <dfn title="Imagine it like a network of nodes,  with each one connected to
