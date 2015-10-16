@@ -1,0 +1,239 @@
+<html>
+<head><title>Image map created by yEd</title>
+<style type="text/css">
+.tooltip {
+  font-size:10pt;
+  background-color:#FFFFCC;
+  border:1px solid black;
+  padding:2px
+}
+</style>
+<style type="text/css">
+.tooltip {
+  position:absolute;
+  display:none
+}
+</style>
+</head>
+<body>
+
+<script type="text/javascript">
+tooltip = null;
+document.onmousemove = updateTooltip;
+function updateTooltip(e) {
+try {
+if (document.all) {
+if (document.documentElement && document.documentElement.scrollTop) { // Explorer 6 Strict
+x = document.documentElement.scrollLeft + window.event.x;
+y = document.documentElement.scrollTop + window.event.y;
+}
+else { // all other Explorers
+x = document.body.scrollLeft + window.event.x;
+y = document.body.scrollTop + window.event.y;
+}
+}
+else {
+x = e.pageX;
+y = e.pageY;
+}
+if (tooltip != null) {
+o = 20;
+var sx, sy;
+if (self.pageYOffset) { // all except Explorer
+sx = self.pageXOffset;
+sy = self.pageYOffset;
+}
+else if (document.documentElement && document.documentElement.scrollTop) { // Explorer 6 Strict
+sx = document.documentElement.scrollLeft;
+sy = document.documentElement.scrollTop;
+}
+else if (document.body) { // all other Explorers
+sx = document.body.scrollLeft;
+sy = document.body.scrollTop;
+}
+t = y + o + tooltip.offsetHeight;
+w = sy + document.body.clientHeight;
+if (t > w) {
+y = y - o - tooltip.offsetHeight;
+}
+else {
+y = y + o;
+}
+t = x + o + tooltip.offsetWidth;
+w = sx + document.body.clientWidth;
+if (t > w) {
+x = x - o - tooltip.offsetWidth;
+}
+else {
+x = x + o;
+}
+if ((tooltip.style.top == '' || tooltip.style.top == 0) && (tooltip.style.left == '' || tooltip.style.left == 0))
+{
+tooltip.style.width = tooltip.offsetWidth + 'px';
+tooltip.style.height = tooltip.offsetHeight + 'px';
+}
+tooltip.style.left = x + "px";
+tooltip.style.top = y + "px";
+}
+} catch (error) { error = null; }
+}
+function showTooltip(id) {
+try {
+tooltip = document.getElementById(id);
+tooltip.style.display = "block";
+} catch (error) { error = null; }
+}
+function hideTooltip() {
+try {
+tooltip.style.display = "none";
+} catch (error) { error = null; }
+}
+</script>
+
+<div class="tooltip" id="n0">APC iniziative</div>
+<div class="tooltip" id="n1">Goals</div>
+<div class="tooltip" id="n2">goals</div>
+<div class="tooltip" id="n3">Environment<br>protection</div>
+<div class="tooltip" id="n4">Workers'<br>rights</div>
+<div class="tooltip" id="n5">Jobs in<br>Europe</div>
+<div class="tooltip" id="n6">unsatisfaction</div>
+<div class="tooltip" id="n7">geeks' goals</div>
+<div class="tooltip" id="n8">Social Goals</div>
+<div class="tooltip" id="n9">privacy and<br>freedom</div>
+<div class="tooltip" id="n10">learning <br>experiment</div>
+<div class="tooltip" id="n11">The people <br>behind the project</div>
+<div class="tooltip" id="n12">Activities</div>
+<div class="tooltip" id="n13">Write<br>Documentation</div>
+<div class="tooltip" id="n14">Manufacture</div>
+<div class="tooltip" id="n15">Test</div>
+<div class="tooltip" id="n16">Activities</div>
+<div class="tooltip" id="n17">Develop</div>
+<div class="tooltip" id="n18">Design</div>
+<div class="tooltip" id="n19">Learn, collect and <br>summarize</div>
+<div class="tooltip" id="n20">Resources</div>
+<div class="tooltip" id="n21">Website</div>
+<div class="tooltip" id="n22">Collaboration<br>and Version Control<br>platform</div>
+<div class="tooltip" id="n23">Resources</div>
+<div class="tooltip" id="n24">Fablab</div>
+<div class="tooltip" id="n25">People's Time</div>
+<div class="tooltip" id="n26">Money</div>
+<div class="tooltip" id="n27">doing</div>
+<div class="tooltip" id="n28">using</div>
+<div class="tooltip" id="n29">Design<br>alternatives</div>
+<div class="tooltip" id="n30">Openness <br>(Source <br>Avalaibility)</div>
+<div class="tooltip" id="n31">making</div>
+<div class="tooltip" id="n32">Laboratory log</div>
+<div class="tooltip" id="n33">Do we need this?</div>
+<div class="tooltip" id="n34">Products</div>
+<div class="tooltip" id="n35">Major components</div>
+<div class="tooltip" id="n36">Hardware</div>
+<div class="tooltip" id="n37">Hardware</div>
+<div class="tooltip" id="n38">Electronics</div>
+<div class="tooltip" id="n39">Chassis<br>or Case</div>
+<div class="tooltip" id="n40">Computer<br> subsysytem</div>
+<div class="tooltip" id="n41">Output subsystem</div>
+<div class="tooltip" id="n42">Input subsystem</div>
+<div class="tooltip" id="n43">Power subsystem</div>
+<div class="tooltip" id="n44">Network subsystem</div>
+<div class="tooltip" id="n45">Software</div>
+<div class="tooltip" id="n46">Software</div>
+<div class="tooltip" id="n47">Operating<br>System</div>
+<div class="tooltip" id="n48">Core<br>Applications</div>
+<div class="tooltip" id="n49">Third<br>parties<br>applications</div>
+<div class="tooltip" id="n50">Main <br>Components</div>
+<div class="tooltip" id="n51">Core <br>Subsystems and<br>Libraries</div>
+<div class="tooltip" id="n52">Alternatives</div>
+<div class="tooltip" id="n53">Alternatives</div>
+<div class="tooltip" id="n54">Alternatives</div>
+<div class="tooltip" id="n55">The devices</div>
+<div class="tooltip" id="n56">compatibility</div>
+<div class="tooltip" id="n57">Documentation</div>
+<div class="tooltip" id="n58">empowered by</div>
+<div class="tooltip" id="n59">Other open Project</div>
+<div class="tooltip" id="n60">Do not <br>reinvent <br>the wheel</div>
+<div class="tooltip" id="n61">history</div>
+<div class="tooltip" id="n62">Common Touch<br>user experience</div>
+<div class="tooltip" id="n63">User Satisfaction</div>
+<div class="tooltip" id="n64">unsatisfaction</div>
+<div class="tooltip" id="e54">Choice <br>restriction</div>
+<div class="tooltip" id="e61">Choice<br>restriction</div>
+
+<map name="image1_1">
+  <area shape="poly" coords="466,1346,466,1346,466,1351,461,1351,462,1346,506,1358,510,1359,510,1363,510,1370,500,1370,500,1363,505,1363,503,1368,460,1356,456,1355,456,1351,456,1346,456,1346" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('e61')"/>
+  <area shape="poly" coords="348,1339,348,1339,348,1344,343,1344,347,1340,365,1360,367,1361,367,1363,367,1370,357,1370,357,1363,362,1363,358,1366,339,1347,338,1346,338,1344,338,1339,338,1339" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('e54')"/>
+  <area shape="rect" coords="2085,331,2121,361" href="/home/ste/public_html/lateriz/website/general/diagram/unsatisfaction.graphml" alt="" target="_blank" onmouseout="hideTooltip()" onmouseover="showTooltip('n64')"/>
+  <area shape="rect" coords="1500,2205,1616,2235" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n63')"/>
+  <area shape="rect" coords="1503,2165,1613,2195" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n62')"/>
+  <area shape="rect" coords="1933,66,1988,96" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n61')"/>
+  <area shape="rect" coords="1897,1510,1970,1578" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n60')"/>
+  <area shape="rect" coords="1754,60,1918,102" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n59')"/>
+  <area shape="rect" coords="1441,721,1545,751" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n58')"/>
+  <area shape="rect" coords="49,1134,155,1164" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n57')"/>
+  <area shape="rect" coords="822,843,914,873" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n56')"/>
+  <area shape="rect" coords="721,843,807,873" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n55')"/>
+  <area shape="rect" coords="483,1370,570,1400" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n54')"/>
+  <area shape="rect" coords="239,1370,325,1400" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n53')"/>
+  <area shape="rect" coords="340,1370,426,1400" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n52')"/>
+  <area shape="rect" coords="376,1301,489,1346" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n51')"/>
+  <area shape="rect" coords="377,1210,467,1240" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n50')"/>
+  <area shape="rect" coords="186,1294,272,1353" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n49')"/>
+  <area shape="rect" coords="504,1309,592,1339" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n48')"/>
+  <area shape="rect" coords="287,1309,361,1339" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n47')"/>
+  <area shape="rect" coords="524,1134,592,1164" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n46')"/>
+  <area shape="rect" coords="170,1098,608,1415" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n45')"/>
+  <area shape="rect" coords="1146,1309,1279,1339" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n44')"/>
+  <area shape="rect" coords="778,1309,897,1339" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n43')"/>
+  <area shape="rect" coords="1017,1309,1131,1339" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n42')"/>
+  <area shape="rect" coords="639,1309,763,1339" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n41')"/>
+  <area shape="rect" coords="912,1309,1002,1339" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n40')"/>
+  <area shape="rect" coords="843,1210,902,1240" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n39')"/>
+  <area shape="rect" coords="917,1210,997,1240" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n38')"/>
+  <area shape="rect" coords="855,1134,927,1164" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n37')"/>
+  <area shape="rect" coords="623,1098,1295,1355" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n36')"/>
+  <area shape="rect" coords="488,954,614,984" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n35')"/>
+  <area shape="rect" coords="33,807,1314,1434" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n34')"/>
+  <area shape="rect" coords="2003,66,2121,96" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n33')"/>
+  <area shape="rect" coords="1325,721,1426,751" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n32')"/>
+  <area shape="rect" coords="933,721,991,751" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n31')"/>
+  <area shape="rect" coords="1546,1523,1630,1565" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n30')"/>
+  <area shape="rect" coords="1011,2004,1097,2034" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n29')"/>
+  <area shape="rect" coords="1505,396,1552,426" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n28')"/>
+  <area shape="rect" coords="1416,396,1463,426" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n27')"/>
+  <area shape="rect" coords="1863,954,1917,984" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n26')"/>
+  <area shape="rect" coords="1751,954,1848,984" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n25')"/>
+  <area shape="rect" coords="1682,954,1736,984" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n24')"/>
+  <area shape="rect" coords="1716,843,1792,873" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n23')"/>
+  <area shape="rect" coords="1534,944,1667,994" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n22')"/>
+  <area shape="rect" coords="1456,954,1519,984" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n21')"/>
+  <area shape="rect" coords="1440,807,1946,1009" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n20')"/>
+  <area shape="rect" coords="1349,583,1474,613" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n19')"/>
+  <area shape="rect" coords="974,583,1029,613" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n18')"/>
+  <area shape="rect" coords="1271,583,1334,613" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n17')"/>
+  <area shape="rect" coords="1222,484,1291,514" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n16')"/>
+  <area shape="rect" coords="1489,583,1529,613" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n15')"/>
+  <area shape="rect" coords="1166,583,1256,613" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n14')"/>
+  <area shape="rect" coords="1044,583,1151,613" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n13')"/>
+  <area shape="rect" coords="958,448,1545,629" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n12')"/>
+  <area shape="rect" coords="1402,319,1552,374" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n11')"/>
+  <area shape="rect" coords="1146,1785,1229,1815" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n10')"/>
+  <area shape="rect" coords="1244,1785,1328,1815" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n9')"/>
+  <area shape="rect" coords="1428,1675,1515,1705" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n8')"/>
+  <area shape="rect" coords="1325,1675,1413,1705" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n7')"/>
+  <area shape="rect" coords="1020,1785,1131,1815" href="/home/ste/public_html/lateriz/website/general/diagram/unsatisfaction.graphml" alt="" target="_blank" onmouseout="hideTooltip()" onmouseover="showTooltip('n6')"/>
+  <area shape="rect" coords="1531,1785,1588,1815" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n5')"/>
+  <area shape="rect" coords="1449,1785,1516,1815" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n4')"/>
+  <area shape="rect" coords="1343,1785,1434,1815" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n3')"/>
+  <area shape="rect" coords="1362,1611,1478,1653" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n2')"/>
+  <area shape="rect" coords="22,1575,1604,1831" alt="" onmouseout="hideTooltip()" onmouseover="showTooltip('n1')"/>
+  <area shape="rect" coords="891,15,1013,147" href="index.html" alt="" target="_blank" onmouseout="hideTooltip()" onmouseover="showTooltip('n0')"/>
+</map>
+
+
+    <table class="yimagetable" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+        <td><img class="yimage" src="apc_mind_map1_1.png" usemap="#image1_1" border="0" alt=""/></td>
+      </tr>
+    </table>
+
+</body>
+</html>
