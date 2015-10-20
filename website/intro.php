@@ -21,6 +21,12 @@ $mycontent = <<< MAIN
     In fact the real mind map</a> is inherently
     network-like, with parts referring to other parts. 
     Also one branch can be a different way to look at the same object. </p>
+		<p>A good organization of the content has been tried by me on 
+		<a href="http://argo3.altervista.org">My homepage [external]</a>.</p>
+		<p>A main treelike nav can cohexist with a in-site network of &lt;a&gt;
+		links.</p>
+		<p><a href="http://www.shlomifish.org/">Shlomi Fish homepage</a> had
+		a similar idea of hierarchical collapsible nav.<p>
 MAIN;
 require_once("common.php");
 ?>

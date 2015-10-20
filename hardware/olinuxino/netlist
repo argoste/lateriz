@@ -1,0 +1,2031 @@
+Netlist
+
+Exported from A10-OLinuXino-Lime_Rev_C.sch at 19/10/2015 18:38
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Net      Part     Pad      Pin        Sheet
+
++5V      +5V      1        PP         1
+         5V_E     2        2          1
+         5V_E_SATA 1        1          1
+         C111     1        1          1
+         C117     1        1          1
+         C124     1        1          1
+         D3       K        C          1
+         FET1     2        S          1
+         FET2     2        S          1
+         FET3     2        S          1
+         FUSE1    1        1          1
+         GPIO-1   1        1          1
+         GPIO-2   1        1          1
+         GPIO-3   1        1          1
+         LCD_CON  1        1          1
+         R30      2        2          1
+         R31      2        2          1
+         R52      1        1          1
+         R75      1        1          1
+         U10      5        IN         1
+         U11      5        IN         1
+         U9       5        IN         1
+
++5V_OTG_PWR C110     1        1          1
+         C138     2        2          1
+         L5       1        1          1
+         R53      1        1          1
+         U12      31       VBUS       1
+         USB_OTG  VBUS     VBUS       1
+
++24V     BAT      1        PP         1
+         C133     2        2          1
+         C135     1        1          1
+         C180     2        2          1
+         LIPO_BAT 1        1          1
+         R51      2        2          1
+         U12      38       BAT        1
+         U12      39       BAT        1
+         U12      42       BATSENSE   1
+
+5VEXT    5VEXT    1        PP         1
+         5V_E     1        1          1
+         C132     2        2          1
+         C174     +        +          1
+         D3       A        A          1
+         D4       C        C          1
+         FET3     3        D          1
+         PWR_JACK +        +          1
+         R65      1        1          1
+         R74      1        1          1
+         U12      32       ACIN       1
+         U12      33       ACIN       1
+         U20      2        VCC        1
+
+BA0      U1       M2       BA0        1
+         U7       K3       SBA0       1
+
+BA1      U1       N8       BA1        1
+         U7       L4       SBA1       1
+
+BA2      U1       M3       BA2        1
+         U7       K4       SBA2       1
+
+CASN     U1       K3       #CAS       1
+         U7       U3       SCAS       1
+
+CKE      U1       K9       CKE        1
+         U7       N3       SCKE0      1
+
+CLK      R9       1        1          1
+         U1       J7       CK         1
+
+CLKN     R11      1        1          1
+         U1       K7       #CK        1
+
+CPU-REF  C13      2        2          1
+         C2       2        2          1
+         C59      2        2          1
+         R3       1        1          1
+         R4       2        2          1
+         R6       2        2          1
+         U7       AA8      SVREF3     1
+         U7       H3       SVREF0     1
+         U7       H4       SVREF1     1
+         U7       Y5       SVREF2     1
+
+DDR3_ODT R13      1        1          1
+         U1       K1       ODT        1
+
+DDR3_RST R12      1        1          1
+         R7       1        1          1
+         U1       T2       #RESET     1
+
+DDR_VREF C1       2        2          1
+         C14      2        2          1
+         R2       1        1          1
+         R4       1        1          1
+         R5       2        2          1
+         U1       H1       VREFDQ     1
+         U1       M8       VREFCA     1
+
+DQ0      U1       E3       DQL0       1
+         U7       AB4      SDQ0       1
+
+DQ1      U1       F7       DQL1       1
+         U7       AC7      SDQ1       1
+
+DQ2      U1       F2       DQL2       1
+         U7       AC4      SDQ2       1
+
+DQ3      U1       F8       DQL3       1
+         U7       AB8      SDQ3       1
+
+DQ4      U1       H3       DQL4       1
+         U7       AC8      SDQ4       1
+
+DQ5      U1       H8       DQL5       1
+         U7       AB5      SDQ5       1
+
+DQ6      U1       G2       DQL6       1
+         U7       AB7      SDQ6       1
+
+DQ7      U1       H7       DQL7       1
+         U7       AC3      SDQ7       1
+
+DQ8      U1       D7       DQU0       1
+         U7       AB2      SDQ8       1
+
+DQ9      U1       C3       DQU1       1
+         U7       Y1       SDQ9       1
+
+DQ10     U1       C8       DQU2       1
+         U7       AC2      SDQ10      1
+
+DQ11     U1       C2       DQU3       1
+         U7       Y2       SDQ11      1
+
+DQ12     U1       A7       DQU4       1
+         U7       AA1      SDQ12      1
+
+DQ13     U1       A2       DQU5       1
+         U7       AB3      SDQ13      1
+
+DQ14     U1       B8       DQU6       1
+         U7       W2       SDQ14      1
+
+DQ15     U1       A3       DQU7       1
+         U7       AC1      SDQ15      1
+
+ECOL     U2       1        COL        1
+         U7       D13      ECOL/CAN_TX/UART1_DCD/PA16 1
+
+ECRS     U2       23       CRS        1
+         U7       E12      ECRS/UART7_RX/UART1_DSR/PA15 1
+
+EMDC     U2       25       MDC        1
+         U7       E10      EMDC/UART1_RX/PA11 1
+
+EMDIO    RM1      1.1      1          1
+         U2       26       MDIO       1
+         U7       D11      EMDIO/UART6_TX/UART1_RTS/PA12 1
+
+EPHY-RST# R24      1        1          1
+         U7       C13      ETXERR/CAN_RX/UART1_RING/PA17 1
+
+ERXCK    U2       16       RXC        1
+         U7       D9       ERXCK/SPI3_MISO/PA8 1
+
+ERXD0    U2       21       RXD0       1
+         U7       E6       ERXD0/SPI1_MISO/PA3 1
+
+ERXD1    U2       20       RXD1       1
+         U7       D6       ERXD1/SPI1_MOSI/PA2 1
+
+ERXD2    U2       19       RXD2       1
+         U7       E5       ERXD2/SPI1_CLK/PA1 1
+
+ERXD3    U2       18       RXD3       1
+         U7       D5       ERXD3/SPI1_CS0/PA0 1
+
+ERXDV    U2       22       RXDV       1
+         U7       D10      ERXDV/UART1_TX/PA10 1
+
+ERXERR   U2       24       RXER/FXEN  1
+         U7       E9       ERXERR/SPI3_CS1/PA9 1
+
+ETXCK    U2       7        TXC        1
+         U7       D12      ETXCK/UART7_TX/UART1_DTR/PA14 1
+
+ETXD0    U2       6        TXD0       1
+         U7       E8       ETXD0/SPI3_MOSI/PA7 1
+
+ETXD1    U2       5        TXD1       1
+         U7       D8       ETXD1/SPI3_CLK/PA6 1
+
+ETXD2    U2       4        TXD2       1
+         U7       E7       ETXD2/SPI3_CS0/PA5 1
+
+ETXD3    U2       3        TXD3       1
+         U7       D7       ETXD3/SPI1_CS1/PA4 1
+
+ETXEN    U2       2        TXEN       1
+         U7       E11      ETXEN/UART6_RX/UART1_CTS/PA13 1
+
+EXTEN    U12      20       EXTEN      1
+         U14      4        EN         1
+         U15      1        EN         1
+
+FMINL    GPIO-4   19       19         1
+         U7       Y20      FMINL      1
+
+FMINR    GPIO-4   17       17         1
+         U7       Y21      FMINR      1
+
+GND      5V_SATA_PWR 2        2          1
+         C10      1        1          1
+         C104     1        1          1
+         C105     1        1          1
+         C106     1        1          1
+         C107     1        1          1
+         C108     1        1          1
+         C109     2        2          1
+         C11      1        1          1
+         C110     2        2          1
+         C111     2        2          1
+         C112     1        1          1
+         C113     1        1          1
+         C114     1        1          1
+         C115     1        1          1
+         C116     1        1          1
+         C117     2        2          1
+         C118     1        1          1
+         C119     1        1          1
+         C12      1        1          1
+         C120     2        2          1
+         C121     1        1          1
+         C122     1        1          1
+         C123     1        1          1
+         C124     2        2          1
+         C125     1        1          1
+         C126     2        2          1
+         C13      1        1          1
+         C130     1        1          1
+         C132     1        1          1
+         C134     2        2          1
+         C135     2        2          1
+         C136     2        2          1
+         C137     2        2          1
+         C138     1        1          1
+         C139     1        1          1
+         C14      1        1          1
+         C140     1        1          1
+         C141     1        1          1
+         C142     2        2          1
+         C143     2        2          1
+         C144     2        2          1
+         C145     1        1          1
+         C146     2        2          1
+         C147     2        2          1
+         C148     2        2          1
+         C149     2        2          1
+         C15      1        1          1
+         C150     1        1          1
+         C151     1        1          1
+         C152     1        1          1
+         C153     2        2          1
+         C154     1        1          1
+         C155     1        1          1
+         C156     1        1          1
+         C157     1        1          1
+         C158     2        2          1
+         C159     2        2          1
+         C16      1        1          1
+         C160     2        2          1
+         C161     1        1          1
+         C162     2        2          1
+         C163     2        2          1
+         C164     1        1          1
+         C165     2        2          1
+         C166     2        2          1
+         C167     2        2          1
+         C168     2        2          1
+         C169     1        1          1
+         C17      1        1          1
+         C170     2        2          1
+         C171     1        1          1
+         C172     1        1          1
+         C173     1        1          1
+         C174     -        -          1
+         C176     2        2          1
+         C177     2        2          1
+         C178     2        2          1
+         C179     2        2          1
+         C18      1        1          1
+         C180     1        1          1
+         C181     1        1          1
+         C182     2        2          1
+         C184     2        2          1
+         C185     2        2          1
+         C186     2        2          1
+         C19      1        1          1
+         C20      1        1          1
+         C21      1        1          1
+         C22      1        1          1
+         C23      1        1          1
+         C24      1        1          1
+         C25      1        1          1
+         C26      1        1          1
+         C27      1        1          1
+         C28      1        1          1
+         C29      1        1          1
+         C3       1        1          1
+         C30      1        1          1
+         C31      1        1          1
+         C32      1        1          1
+         C33      1        1          1
+         C34      1        1          1
+         C35      1        1          1
+         C36      1        1          1
+         C37      1        1          1
+         C38      1        1          1
+         C39      1        1          1
+         C4       1        1          1
+         C40      1        1          1
+         C41      1        1          1
+         C42      1        1          1
+         C43      1        1          1
+         C44      1        1          1
+         C45      1        1          1
+         C46      1        1          1
+         C48      1        1          1
+         C49      1        1          1
+         C5       1        1          1
+         C50      1        1          1
+         C51      1        1          1
+         C52      1        1          1
+         C53      1        1          1
+         C54      1        1          1
+         C55      1        1          1
+         C56      1        1          1
+         C57      1        1          1
+         C58      1        1          1
+         C59      1        1          1
+         C6       1        1          1
+         C60      1        1          1
+         C61      1        1          1
+         C62      1        1          1
+         C63      1        1          1
+         C64      1        1          1
+         C65      1        1          1
+         C66      1        1          1
+         C67      1        1          1
+         C68      1        1          1
+         C69      1        1          1
+         C7       1        1          1
+         C70      1        1          1
+         C71      1        1          1
+         C72      1        1          1
+         C73      1        1          1
+         C74      2        2          1
+         C75      2        2          1
+         C76      2        2          1
+         C77      1        1          1
+         C78      1        1          1
+         C79      1        1          1
+         C8       1        1          1
+         C80      1        1          1
+         C81      1        1          1
+         C82      1        1          1
+         C83      1        1          1
+         C84      1        1          1
+         C85      1        1          1
+         C86      1        1          1
+         C87      1        1          1
+         C88      1        1          1
+         C89      1        1          1
+         C9       1        1          1
+         C90      1        1          1
+         C91      1        1          1
+         C92      1        1          1
+         C93      1        1          1
+         C94      1        1          1
+         C95      1        1          1
+         C96      1        1          1
+         C98      1        1          1
+         D4       A        A          1
+         FET4     2        S          1
+         GND      1        PP         1
+         GND_PIN  P$1      PP         1
+         GPIO-1   2        2          1
+         GPIO-2   2        2          1
+         GPIO-3   2        2          1
+         GPIO-3   4        4          1
+         GPIO-4   2        2          1
+         HDMI     11       11         1
+         HDMI     17       17         1
+         HDMI     2        2          1
+         HDMI     5        5          1
+         HDMI     8        8          1
+         HDMI     SH1      20         1
+         HDMI     SH2      21         1
+         HDMI     SH3      22         1
+         HDMI     SH4      23         1
+         L6       1        1          1
+         L9       1        1          1
+         LAN      GND1     GND1       1
+         LAN      GND2     GND2       1
+         LCD_CON  2        2          1
+         LCD_CON  4        4          1
+         LED1     C        C          1
+         LIPO_BAT 2        2          1
+         PWR      2_1      0          1
+         PWR_JACK -        -          1
+         PWR_JACK --       --         1
+         PWR_LED  C        C          1
+         R14      1        1          1
+         R19      1        1          1
+         R25      2        2          1
+         R29      2        2          1
+         R32      2        2          1
+         R34      2        2          1
+         R35      1        1          1
+         R36      1        1          1
+         R37      1        1          1
+         R40      1        1          1
+         R41      1        1          1
+         R47      1        1          1
+         R48      1        1          1
+         R5       1        1          1
+         R50      1        1          1
+         R55      2        2          1
+         R57      1        1          1
+         R58      1        1          1
+         R59      1        1          1
+         R6       1        1          1
+         R61      1        1          1
+         R63      2        2          1
+         R66      1        1.1        1
+         R69      2        2          1
+         R70      2        2          1
+         R72      2        2          1
+         R77      1        1          1
+         R8       1        1          1
+         RECOVERY 1_1      1          1
+         RM1      4.2      2          1
+         RM2      2.1      1          1
+         RM2      3.1      1          1
+         RM2      4.1      1          1
+         SATA     1        GND        1
+         SATA     4        GND        1
+         SATA     7        GND        1
+         SD/MMC1  6        VSS        1
+         T1       2        E          1
+         U1       A9       VSS        1
+         U1       B1       VSSQ       1
+         U1       B3       VSS        1
+         U1       B9       VSSQ       1
+         U1       D1       VSSQ       1
+         U1       D8       VSSQ       1
+         U1       E1       VSS        1
+         U1       E2       VSSQ       1
+         U1       E8       VSSQ       1
+         U1       F9       VSSQ       1
+         U1       G1       VSSQ       1
+         U1       G8       VSS        1
+         U1       G9       VSSQ       1
+         U1       J2       VSS        1
+         U1       J8       VSS        1
+         U1       M1       VSS        1
+         U1       M9       VSS        1
+         U1       P1       VSS        1
+         U1       P9       VSS        1
+         U1       T1       VSS        1
+         U1       T9       VSS        1
+         U10      2        GND        1
+         U11      2        GND        1
+         U12      16       PGND3      1
+         U12      22       AGND       1
+         U12      46       PGND1      1
+         U12      9        PGND2      1
+         U12      N1       GND_PAD    1
+         U12      N10      GND_PAD    1
+         U12      N11      GND_PAD    1
+         U12      N12      GND_PAD    1
+         U12      N13      GND_PAD    1
+         U12      N14      GND_PAD    1
+         U12      N15      GND_PAD    1
+         U12      N16      GND_PAD    1
+         U12      N17      GND_PAD    1
+         U12      N2       GND_PAD    1
+         U12      N3       GND_PAD    1
+         U12      N4       GND_PAD    1
+         U12      N5       GND_PAD    1
+         U12      N6       GND_PAD    1
+         U12      N7       GND_PAD    1
+         U12      N8       GND_PAD    1
+         U12      N9       GND_PAD    1
+         U12      VSS      GND_PAD    1
+         U13      2        GND        1
+         U14      2        GND        1
+         U15      2        GND        1
+         U2       11       DGND       1
+         U2       17       DGND       1
+         U2       29       AGND       1
+         U2       35       AGND       1
+         U2       40       RPTR       1
+         U2       43       ISOLATE    1
+         U2       45       DGND       1
+         U20      3        GND        1
+         U3       1        A0         1
+         U3       2        A1         1
+         U3       3        A2         1
+         U3       4        GND        1
+         U3       7        WP         1
+         U4       13       VSS        1
+         U4       36       VSS        1
+         U5       3        GND        1
+         U5       8        GND        1
+         U6       3        GND        1
+         U6       8        GND        1
+         U7       AA18     GND25_TVIN 1
+         U7       G3       GND_DRAM   1
+         U7       G4       GND_DRAM   1
+         U7       H16      TEST       1
+         U7       J11      GND        1
+         U7       J5       GND_DRAM   1
+         U7       K11      GND        1
+         U7       K12      GND        1
+         U7       K13      GND        1
+         U7       K14      ULGND      1
+         U7       K5       GND_DRAM   1
+         U7       L10      GND        1
+         U7       L11      GND        1
+         U7       L12      GND        1
+         U7       L13      UGND_T     1
+         U7       L14      UGND_C     1
+         U7       M10      GND        1
+         U7       M11      GND        1
+         U7       M12      GND        1
+         U7       M13      GND        1
+         U7       M14      GND_SATA   1
+         U7       M9       GND_DLL    1
+         U7       N10      GND_DLL    1
+         U7       N11      GND        1
+         U7       N12      GND        1
+         U7       N13      GND_SATA   1
+         U7       N14      GND_SATA   1
+         U7       N5       GND_DRAM   1
+         U7       P10      GND_DLL    1
+         U7       P11      GND        1
+         U7       P12      GND        1
+         U7       P13      GND_HDMI   1
+         U7       P14      GND_HDMI   1
+         U7       P15      PLLGND     1
+         U7       P5       GND_DRAM   1
+         U7       R11      GND        1
+         U7       R12      GND        1
+         U7       R13      GND_HDMI   1
+         U7       T11      GND        1
+         U7       T12      GND        1
+         U7       T9       EFUSE_VDDQ 1
+         U7       U5       GND_DRAM   1
+         U7       V19      HPGND      1
+         U7       V5       GND_DRAM   1
+         U7       W10      GND_LVDS   1
+         U7       W11      GND_LVDS   1
+         U7       W18      GND33_TVOUT 1
+         U7       W9       GND_LVDS   1
+         U7       Y18      GND33_TVIN 1
+         U7       Y7       GND_DRAM   1
+         U7       Y8       GND_DRAM   1
+         U8       3        GND        1
+         U8       8        GND        1
+         U9       2        GND        1
+         UART0    3        3          1
+         USB_HOST1 4        4          1
+         USB_HOST2 4        4          1
+         USB_OTG  GND      GND        1
+         VR1      2        VSS        1
+
+GNDA     C100     1        1          1
+         C101     1        1          1
+         C102     1        1          1
+         C103     1        1          1
+         C47      2        2          1
+         C97      1        1          1
+         C99      1        1          1
+         GPIO-1   4        4          1
+         R28      2        2          1
+         R66      2        1.2        1
+         U7       U19      AGND       1
+
+GPIO1    R53      2        2          1
+         R55      1        1          1
+         U12      18       GPIO1      1
+
+GPIO2    GPIO-4   12       12         1
+         U12      5        GPIO2      1
+
+GPIO3    GPIO-4   14       14         1
+         U12      3        GPIO3      1
+
+HCEC     HDMI     13       13         1
+         U7       P23      CEC_HDMI   1
+         U8       1        IN1        1
+         U8       10       OUT1       1
+
+HDMI_5V_SOURCE FUSE1    2        2          1
+         HDMI     18       18         1
+
+HHPD     HDMI     19       19         1
+         R32      1        1          1
+         U7       P22      HPD_HDMI   1
+         U8       5        IN4        1
+         U8       6        OUT4       1
+
+HPCOM    GPIO-1   16       16         1
+         U7       AA19     HPCOM      1
+         U7       AA20     HPCOMFB    1
+
+HPOUTL   GPIO-1   14       14         1
+         U7       Y19      HPOUTL     1
+
+HPOUTR   GPIO-1   18       18         1
+         U7       W19      HPOUTR     1
+
+HSCL     HDMI     15       15         1
+         R30      1        1          1
+         U7       R23      SCL_HDMI   1
+         U8       2        IN2        1
+         U8       9        OUT2       1
+
+HSDA     HDMI     16       16         1
+         R31      1        1          1
+         U7       R22      SDA_HDMI   1
+         U8       4        IN3        1
+         U8       7        OUT3       1
+
+HTX0N    HDMI     9        9          1
+         U6       2        IN2        1
+         U6       9        OUT2       1
+         U7       V22      TX0N_HDMI  1
+
+HTX0P    HDMI     7        7          1
+         U6       1        IN1        1
+         U6       10       OUT1       1
+         U7       V23      TX0P_HDMI  1
+
+HTX1N    HDMI     6        6          1
+         U5       5        IN4        1
+         U5       6        OUT4       1
+         U7       U22      TX1N_HDMI  1
+
+HTX1P    HDMI     4        4          1
+         U5       4        IN3        1
+         U5       7        OUT3       1
+         U7       U23      TX1P_HDMI  1
+
+HTX2N    HDMI     3        3          1
+         U5       2        IN2        1
+         U5       9        OUT2       1
+         U7       T22      TX2N_HDMI  1
+
+HTX2P    HDMI     1        1          1
+         U5       1        IN1        1
+         U5       10       OUT1       1
+         U7       T23      TX2P_HDMI  1
+
+HTXCN    HDMI     12       12         1
+         U6       5        IN4        1
+         U6       6        OUT4       1
+         U7       W22      TXCN_HDMI  1
+
+HTXCP    HDMI     10       10         1
+         U6       4        IN3        1
+         U6       7        OUT3       1
+         U7       W23      TXCP_HDMI  1
+
+IPSOUT   C130     2        2          1
+         C136     1        1          1
+         C144     1        1          1
+         C149     1        1          1
+         C157     2        2          1
+         C160     1        1          1
+         C176     1        1          1
+         C181     2        2          1
+         C182     1        1          1
+         IPSOUT   1        PP         1
+         L14      1        1          1
+         R56      1        1          1
+         RESET    1_1      1          1
+         U12      13       LDO24IN    1
+         U12      14       VIN3       1
+         U12      21       APS        1
+         U12      34       IPSOUT     1
+         U12      35       IPSOUT     1
+         U12      40       LDO3IN     1
+         U12      44       VIN1       1
+         U12      7        VIN2       1
+         U13      4        IN         1
+         U14      5        IN         1
+         U15      4        IN         1
+
+LCD_CLK  LCD_CON  31       31         1
+         U7       Y9       LCD0_CLK/SMC_VCCEN/PD24 1
+
+LCD_D0   LCD_CON  21       21         1
+         U7       AB15     LCD0_D0/LVDS0_VP0/PD0 1
+
+LCD_D1   LCD_CON  22       22         1
+         U7       AC15     LCD0_D1/LVDS0_VN0/PD1 1
+
+LCD_D2   LCD_CON  23       23         1
+         U7       AB14     LCD0_D2/LVDS0_VP1/PD2 1
+
+LCD_D3   LCD_CON  24       24         1
+         U7       AC14     LCD0_D3/LVDS0_VN1/PD3 1
+
+LCD_D4   LCD_CON  25       25         1
+         U7       AB13     LCD0_D4/LVDS0_VP2/PD4 1
+
+LCD_D5   LCD_CON  26       26         1
+         U7       AC13     LCD0_D5/LVDS0_VN2/PD5 1
+
+LCD_D6   LCD_CON  27       27         1
+         U7       AB12     LCD0_D6/LVDS0_VPC/PD6 1
+
+LCD_D7   LCD_CON  28       28         1
+         U7       AC12     LCD0_D7/LVDS0_VNC/PD7 1
+
+LCD_D8   LCD_CON  13       13         1
+         U7       AB11     LCD0_D8/LVDS0_VP3/PD8 1
+
+LCD_D9   LCD_CON  14       14         1
+         U7       AC11     LCD0_D9/LVDS0_VN3/PD9 1
+
+LCD_D10  LCD_CON  15       15         1
+         U7       Y15      LCD0_D10/LVDS1_VP0/PD10 1
+
+LCD_D11  LCD_CON  16       16         1
+         U7       AA15     LCD0_D11/LVDS1_VN0/PD11 1
+
+LCD_D12  LCD_CON  17       17         1
+         U7       Y14      LCD0_D12/LVDS1_VP1/PD12 1
+
+LCD_D13  LCD_CON  18       18         1
+         U7       AA14     LCD0_D13/LVDS1_VN1/PD13 1
+
+LCD_D14  LCD_CON  19       19         1
+         U7       Y13      LCD0_D14/LVDS1_VP2/PD14 1
+
+LCD_D15  LCD_CON  20       20         1
+         U7       AA13     LCD0_D15/LVDS1_VN2/PD15 1
+
+LCD_D16  LCD_CON  5        5          1
+         U7       Y12      LCD0_D16/LVDS1_VPC/PD16 1
+
+LCD_D17  LCD_CON  6        6          1
+         U7       AA12     LCD0_D17/LVDS1_VNC/PD17 1
+
+LCD_D18  LCD_CON  7        7          1
+         U7       Y11      LCD0_D18/LVDS1_VP3/PD18 1
+
+LCD_D19  LCD_CON  8        8          1
+         U7       AA11     LCD0_D19/LVDS1_VN3/PD19 1
+
+LCD_D20  LCD_CON  9        9          1
+         U7       Y10      LCD0_D20/CSI1_MCLK/PD20 1
+
+LCD_D21  LCD_CON  10       10         1
+         U7       AA10     LCD0_D21/SMC_VPPEN/PD21 1
+
+LCD_D22  LCD_CON  11       11         1
+         U7       AB10     LCD0_D22/SMC_VPPPP/PD22 1
+
+LCD_D23  LCD_CON  12       12         1
+         U7       AC10     LCD0_D23/SMC_DET/PD23 1
+
+LCD_DE   LCD_CON  32       32         1
+         U7       AA9      LCD0_DE/SMC_RST/PD25 1
+
+LCD_HSYNC LCD_CON  29       29         1
+         U7       AB9      LCD0_HSYNC/SMC_SLK/PD26 1
+
+LCD_PWR  LCD_CON  35       35         1
+         U7       C4       LCD1_D8/ATAD4/KP_IN0/MS_D0/EINT8/CSI1_D8/PH8 1
+
+LCD_VSYNC LCD_CON  30       30         1
+         U7       AC9      LCD0_VSYNC/SMC_SDA/PD27 1
+
+LDO3_2.8V C159     1        1          1
+         C77      2        2          1
+         GPIO-2   4        4          1
+         U12      41       LDO3       1
+         U7       F19      VCC_CSI0   1
+
+LDO4_2.8V C163     1        1          1
+         C78      2        2          1
+         U12      11       LDO4       1
+         U7       E18      VCC_CSI1   1
+
+LINEINL  GPIO-4   15       15         1
+         U7       AB20     LINEINL    1
+
+LINEINR  GPIO-4   13       13         1
+         U7       AB21     LINEINR    1
+
+LRADC0   C47      1        1          1
+         GPIO-1   6        6          1
+         R10      2        2          1
+         U7       AB23     LRADC0     1
+
+LRADC1   GPIO-1   8        8          1
+         U7       AB22     LRADC1     1
+
+MIC1OUTN GPIO-4   8        8          1
+         U7       AC23     MIC1OUTN   1
+
+MIC1OUTP GPIO-4   6        6          1
+         U7       AC22     MIC1OUTP   1
+
+MICIN1   GPIO-1   10       10         1
+         U7       AC20     MICIN1     1
+
+MICIN2   GPIO-4   10       10         1
+         U7       AC21     MICIN2     1
+
+N$1      C107     2        2          1
+         C108     2        2          1
+         U7       AC19     HPVCC      1
+
+N$2      R14      2        2          1
+         U7       AA7      SZQ        1
+
+N$3      R8       2        2          1
+         U1       L8       ZQ         1
+
+N$4      CHGLED   A        A          1
+         R56      2        2          1
+
+N$5      PC3/PB8  2        2          1
+         R54      2        2          1
+
+N$6      R19      2        2          1
+         U2       28       RTSET      1
+
+N$7      D2       C        C          1
+         UART0    2        2          1
+
+N$8      L13      1        1          1
+         U13      3        LX         1
+
+N$9      C145     2        2          1
+         U12      19       GPIO0/LDO  1
+
+N$10     D1       C        C          1
+         R21      2        2          1
+
+N$11     CHGLED   C        C          1
+         U12      36       CHGLED     1
+
+N$12     R63      1        1          1
+         U12      27       LDO1SET    1
+
+N$13     RM1      4.1      1          1
+         U2       15       LED4/PHYAD4 1
+
+N$14     C81      2        2          1
+         Q2       1        1          1
+         R73      2        2          1
+         U7       F1       CLK32K_IN  1
+
+N$15     FET3     1        G          1
+         FET4     3        D          1
+         R75      2        2          1
+
+N$17     C148     1        1          1
+         R54      1        1          1
+         R58      2        2          1
+         T1       1        B          1
+
+N$18     FET1     1        G          1
+         R52      2        2          1
+         T1       3        C          1
+
+N$19     C175     2        2          1
+         R68      2        2          1
+         R70      1        1          1
+         U13      5        FB         1
+
+N$21     C54      2        2          1
+         C55      2        2          1
+         L1       1        1          1
+         U2       36       AVDD33     1
+
+N$23     C179     1        1          1
+         C186     1        1          1
+         D5       1        C          1
+         FET2     3        D          1
+         R67      2        2          1
+
+N$24     5V_E_SATA 2        2          1
+         5V_SATA_PWR 1        1          1
+         C140     2        2          1
+         C141     2        2          1
+         FET1     3        D          1
+
+N$25     FET2     1        G          1
+         FET4     1        G          1
+         R74      2        2          1
+         R77      2        2          1
+         U20      1        RESET      1
+
+N$32     C86      2        2          1
+         R24      2        2          1
+         RM1      3.1      1          1
+         U2       42       RESETB     1
+
+N$33     C88      2        2          1
+         RM3      1.1      1          1
+         RM3      2.1      1          1
+
+N$38     PWR      1_1      1          1
+         R60      1        1          1
+
+N$39     LAN      1        TD+        1
+         RM3      4.2      2          1
+         U2       34       TPTX+      1
+
+N$40     LAN      2        TD-        1
+         RM3      3.2      2          1
+         U2       33       TPTX-      1
+
+N$41     LAN      7        RD+        1
+         RM3      2.2      2          1
+         U2       31       TPRX+      1
+
+N$42     C171     2        2          1
+         U7       AA16     VRP_TVIN   1
+
+N$45     LAN      8        RD-        1
+         RM3      1.2      2          1
+         U2       30       TPRX-      1
+
+N$47     C87      2        2          1
+         RM3      3.1      1          1
+         RM3      4.1      1          1
+
+N$49     RM2      2.2      2          1
+         U2       10       LED1/PHYAD1 1
+
+N$51     RM2      3.2      2          1
+         U2       12       LED2/PHYAD2 1
+
+N$53     LAN      KG       KG         1
+         R22      1        1          1
+
+N$54     LAN      AY       AY         1
+         RM2      4.2      2          1
+         U2       13       LED3/PHYAD3 1
+
+N$55     C74      1        1          1
+         L3       1        1          1
+         U2       8        PWFBIN     1
+
+N$56     C75      1        1          1
+         C76      1        1          1
+         C89      2        2          1
+         L3       2        2          1
+         LAN      3        COM        1
+         U2       32       PWFBOUT    1
+
+N$57     LAN      KY       KY         1
+         R25      1        1          1
+
+N$58     R29      1        1          1
+         SD/MMC1  10       PACK1      1
+         SD/MMC1  11       PACK2      1
+         SD/MMC1  12       PACK3      1
+         SD/MMC1  13       PACK4      1
+
+N$64     L15      1        1          1
+         U15      3        LX         1
+
+N$66     C183     2        2          1
+         R71      2        2          1
+         R72      1        1          1
+         U15      5        FB         1
+
+N$67     C60      2        2          1
+         C61      2        2          1
+         C62      2        2          1
+         L2       1        1          1
+         U2       14       DVDD33     1
+         U2       48       DVDD33     1
+
+N$68     R22      2        2          1
+         RM2      1.2      2          1
+         U2       9        LED0/PHYAD0 1
+
+N$99     R36      2        2          1
+         U9       3        ISET       1
+
+N$100    C112     2        2          1
+         L5       2        2          1
+         R33      2        2          1
+         U9       1        OUT        1
+
+N$101    R41      2        2          1
+         U10      3        ISET       1
+
+N$106    C127     2        2          1
+         SATA     2        A+         1
+
+N$111    C120     1        1          1
+         L7       2        2          1
+         USB_HOST1 1        1          1
+
+N$112    C128     2        2          1
+         SATA     3        A-         1
+
+N$113    C129     2        2          1
+         SATA     5        B-         1
+
+N$114    C131     2        2          1
+         SATA     6        B+         1
+
+N$116    C85      2        2          1
+         Q2       4        2          1
+         R73      1        1          1
+         U7       F2       CLK32K_OUT 1
+
+N$119    R57      2        2          1
+         U7       V21      REXT_SATA  1
+
+N$120    R59      2        2          1
+         U12      23       BIAS       1
+
+N$122    C102     2        2          1
+         C103     2        2          1
+         U7       W21      VRP        1
+
+N$123    D5       2        A          1
+         L14      2        2          1
+         U14      1        LX         1
+
+N$124    C82      2        2          1
+         R20      2        2          1
+         R76      2        2          1
+         U4       19       #WP        1
+
+N$125    R50      2        2          1
+         U12      37       TS         1
+
+N$126    R67      1        1          1
+         R69      1        1          1
+         U14      3        FB         1
+
+N$127    L10      1        1          1
+         U12      45       LX1        1
+
+N$128    C133     1        1          1
+         C134     1        1          1
+         L10      2        2          1
+         R51      1        1          1
+         U12      43       CHSENSE    1
+
+N$129    PWR_LED  A        A          1
+         R65      2        2          1
+
+N$130    L11      1        1          1
+         U12      8        LX2        1
+
+N$131    L12      1        1          1
+         U12      15       LX3        1
+
+N$132    C154     2        2          1
+         U12      24       VREF       1
+
+N$133    C99      2        2          1
+         U7       W20      VRA1       1
+
+N$137    R48      2        2          1
+         U11      3        ISET       1
+
+N$139    C161     2        2          1
+         R60      2        2          1
+         U12      47       PWRON      1
+
+N$140    R61      2        2          1
+         RESET    2_1      0          1
+         U12      4        N_OE       1
+
+N$176    C100     2        2          1
+         C101     2        2          1
+         R28      1        1          1
+         U7       V20      VRA2       1
+
+N$190    R34      1        1          1
+         U7       T10      JTAG_SEL   1
+
+N$192    C118     2        2          1
+         L7       1        1          1
+         U10      1        OUT        1
+
+N$193    L9       2        2          1
+         USB_HOST1 P$3      5          1
+         USB_HOST1 P$4      6          1
+         USB_HOST2 P$3      5          1
+         USB_HOST2 P$4      6          1
+
+N$194    C126     1        1          1
+         L8       2        2          1
+         USB_HOST2 1        1          1
+
+N$195    C125     2        2          1
+         L8       1        1          1
+         U11      1        OUT        1
+
+N$223    C173     2        2          1
+         U7       Y16      VRN_TVIN   1
+
+N$229    LCD_CON  33       33         1
+         R38      1        1          1
+
+N$230    LCD_CON  34       34         1
+         R39      1        1          1
+
+N$231    LED1     A        A          1
+         R1       2        2          1
+
+N$232    NAND_E   1        1          1
+         R18      2        2          1
+         U4       9        #CE        1
+
+N$266    L6       2        2          1
+         USB_OTG  GND1     GND1       1
+         USB_OTG  GND2     GND2       1
+         USB_OTG  GND3     GND3       1
+         USB_OTG  GND4     GND4       1
+
+NALE     U4       17       ALE        1
+         U7       M22      NALE/SPI0_MISO/PC1 1
+
+NCE0     NAND_E   2        2          1
+         U7       K23      NCE0/PC4   1
+
+NCLE     U4       16       CLE        1
+         U7       L23      NCLE/SPI0_CLK/PC2 1
+
+NDQ0     U4       29       I/O0       1
+         U7       H23      NDQ0/SDC2_D0/PC8 1
+
+NDQ1     U4       30       I/O1       1
+         U7       H22      NDQ1/SDC2_D1/PC9 1
+
+NDQ2     U4       31       I/O2       1
+         U7       G23      NDQ2/SDC2_D2/PC10 1
+
+NDQ3     U4       32       I/O3       1
+         U7       G22      NDQ3/SDC2_D3/PC11 1
+
+NDQ4     U4       41       I/O4       1
+         U7       H21      NDQ4/PC12  1
+
+NDQ5     U4       42       I/O5       1
+         U7       H20      NDQ5/PC13  1
+
+NDQ6     U4       43       I/O6       1
+         U7       G21      NDQ6/PC14  1
+
+NDQ7     U4       44       I/O7       1
+         U7       G20      NDQ7/PC15  1
+
+NMI_N    GPIO-4   4        4          1
+         R21      1        1          1
+         U12      48       IRQ/WAKEUP 1
+         U7       F5       NMI#       1
+
+NRB0     R17      2        2          1
+         U4       7        R/#B       1
+         U7       J23      NRB0/SDC2_CMD/PC6 1
+
+NRE      U4       8        #RE        1
+         U7       K22      NRE#/PC5   1
+
+NWE      U4       18       #WE        1
+         U7       M23      NWE#/SPI0_MOSI/PC0 1
+
+ODT0     R13      2        2          1
+         U7       AA5      ODT0       1
+
+PB2/PWM0 LCD_CON  36       36         1
+         U7       A14      PWM0/PB2   1
+
+PB3      GPIO-3   6        6          1
+         R38      2        2          1
+         U7       B14      IR0_TX/SPDIF_MCLK/STANBYWFI/PB3 1
+
+PB4      GPIO-3   8        8          1
+         R39      2        2          1
+         U7       A13      IR0_RX/PB4 1
+
+PB5      GPIO-3   10       10         1
+         U7       B13      I2S_MCLK/AC97_MCLK/PB5 1
+
+PB6      GPIO-3   12       12         1
+         U7       A12      I2S_BCLK/AC97_BCLK/PB6 1
+
+PB7      GPIO-3   14       14         1
+         U7       B12      I2S_LRCK/AC97_SYNC/PB7 1
+
+PB8/SATA-PWR-EN GPIO-3   16       16         1
+         PC3/PB8  1        1          1
+         U7       A11      I2S_DO0/AC97_DO/PB8 1
+
+PB9/USB0-DRV PB9/PH7_GPIO 1        1          1
+         PB9/PH7_USB 3        3          1
+         U7       C12      I2S_DO1/PB9 1
+
+PB10     GPIO-3   18       18         1
+         U7       C11      I2S_DO2/PB10 1
+
+PB11     GPIO-3   20       20         1
+         U7       C10      I2S_DO3/PB11 1
+
+PB12     GPIO-3   22       22         1
+         U7       C9       I2S_DI/AC97_DI/SPDIF_DI/PB12 1
+
+PB13     GPIO-3   24       24         1
+         U7       B11      SPI2_CS1/SPDIF_DO/PB13 1
+
+PB14     GPIO-3   26       26         1
+         RM5      1.1      1          1
+         U7       A10      JTAG_MS0/SPI2_CS0/PB14 1
+
+PB15     GPIO-3   28       28         1
+         RM5      2.1      1          1
+         U7       B10      JTAG_CK0/SPI2_CLK/PB15 1
+
+PB16     GPIO-3   30       30         1
+         U7       A9       JTAG_DO0/SPI2_MOSI/PB16 1
+
+PB17     GPIO-3   32       32         1
+         RM5      4.1      1          1
+         U7       B9       JTAG_DI0/SPI2_MISO/PB17 1
+
+PB18     GPIO-1   36       36         1
+         R15      2        2          1
+         R46      1        1          1
+         U3       6        SCL        1
+         U7       A8       TWI1_SCK/PB18 1
+
+PB19     GPIO-1   34       34         1
+         R16      1        1          1
+         R45      1        1          1
+         U3       5        SDA        1
+         U7       B8       TWI1_SDA/PB19 1
+
+PB20     GPIO-1   32       32         1
+         R44      1        1          1
+         U7       C8       TWI2_SCK/PB20 1
+
+PB21     GPIO-1   30       30         1
+         R43      1        1          1
+         U7       C7       TWI2_SDA/PB21 1
+
+PC3/SATA-PWR-EN GPIO-1   29       29         1
+         PC3/PB8  3        3          1
+         U7       L22      NCE1/PC3   1
+
+PC7      GPIO-4   16       16         1
+         U7       J22      NRB1/SDC2_CLK/PC7 1
+
+PC16/NWP GPIO-4   18       18         1
+         R76      1        1          1
+         U7       M21      NWP/PC16   1
+
+PC17     GPIO-4   20       20         1
+         U7       F23      NCE2/PC17  1
+
+PC18     GPIO-1   31       31         1
+         U7       F22      NCE3/PC18  1
+
+PC19     GPIO-1   33       33         1
+         U7       L21      NCE4/SPI2_CS0/PC19 1
+
+PC20     GPIO-1   35       35         1
+         U7       K21      NCE5/SPI2_CLK/PC20 1
+
+PC21     GPIO-1   37       37         1
+         U7       J21      NCE6/SPI2_MOSI/PC21 1
+
+PC22     GPIO-1   39       39         1
+         U7       J20      NCE7/SPI2_MISO/PC22 1
+
+PC23     GPIO-1   40       40         1
+         U7       G19      SPI0_CS0/PC23 1
+
+PC24     GPIO-1   38       38         1
+         U7       F21      NDQS/PC24  1
+
+PE0      GPIO-2   6        6          1
+         U7       E23      TS0_CLK/CSI0_PCLK/PE0 1
+
+PE1      GPIO-2   8        8          1
+         U7       E22      TS0_ERR/CSI0_MCLK/PE1 1
+
+PE2      GPIO-2   10       10         1
+         U7       D23      TS0_SYNC/CSI0_HSYNC/PE2 1
+
+PE3      GPIO-2   12       12         1
+         U7       D22      TS0_DVLD/CSI0_VSYNC/PE3 1
+
+PE4      GPIO-2   14       14         1
+         U7       C23      TS0_D0/CSI0_D0/PE4 1
+
+PE5      GPIO-2   16       16         1
+         U7       C22      TS0_D1/CSI0_D1/PE5 1
+
+PE6      GPIO-2   18       18         1
+         U7       B23      TS0_D2/CSI0_D2/PE6 1
+
+PE7      GPIO-2   20       20         1
+         U7       B22      TS0_D3/CSI0_D3/PE7 1
+
+PE8      GPIO-2   22       22         1
+         U7       A23      TS0_D4/CSI0_D4/PE8 1
+
+PE9      GPIO-2   24       24         1
+         U7       A22      TS0_D5/CSI0_D5/PE9 1
+
+PE10     GPIO-2   26       26         1
+         U7       B21      TS0_D6/CSI0_D6/PE10 1
+
+PE11     GPIO-2   28       28         1
+         U7       A21      TS0_D7/CSI0_D7/PE11 1
+
+PG0      GPIO-1   5        5          1
+         U7       F20      TS1_CLK/CSI1_PCLK/SDC1_CMD/PG0 1
+
+PG1      GPIO-1   7        7          1
+         U7       E21      TS1_ERR/CSI1_MLCK/SDC1_CLK/PG1 1
+
+PG2      GPIO-1   9        9          1
+         U7       E20      TS1_SYNC/CSI1_HSYNC/SDC1_D0/PG2 1
+
+PG3      GPIO-1   11       11         1
+         U7       D21      TS1_DVLD/CSI1_VSYNC/SDC1_D1/PG3 1
+
+PG4      GPIO-1   13       13         1
+         U7       D20      TS1_D0/CSI1_D0/SDC1_D2/CSI0_D8/PG4 1
+
+PG5      GPIO-1   15       15         1
+         U7       C21      TS1_D1/CSI1_D1/SDC1_D3/CSI0_D9/PG5 1
+
+PG6      GPIO-1   17       17         1
+         U7       E19      TS1_D2/CSI1_D2/UART3_TX/CSI0_D10/PG6 1
+
+PG7      GPIO-1   19       19         1
+         U7       C20      TS1_D3/CSI1_D3/UART3_RX/CSI0_D11/PG7 1
+
+PG8      GPIO-1   21       21         1
+         U7       D19      TS1_D4/CSI1_D4/UART3_RTS/CSI0_D12/PG8 1
+
+PG9      GPIO-1   23       23         1
+         U7       C19      TS1_D5/CSI1_D5/UART3_CTS/CSI0_D13/PG9 1
+
+PG10     GPIO-1   25       25         1
+         U7       D18      TS1_D6/CSI1_D6/UART4_TX/CSI0_D14/PG10 1
+
+PG11     GPIO-1   27       27         1
+         U7       C18      TS1_D7/CSI1_D7/UART4_RX/CSI0_D15/PG11 1
+
+PH0      GPIO-3   7        7          1
+         U7       A6       LCD1_D0/ATAA0/UART3_TX/EINT0/CSI1_D0/PH0 1
+
+PH2/LED  R1       1        1          1
+         U7       C6       LCD1_D2/ATAA2/UART3_RTS/EINT2/CSI1_D2/PH2 1
+
+PH7/PB9  GPIO-3   9        9          1
+         PB9/PH7_GPIO 2        2          1
+
+PH7/USB0-DRV PB9/PH7_GPIO 3        3          1
+         PB9/PH7_USB 1        1          1
+         U7       B4       LCD1_D7/ATAD3/UART5_RX/MS_CLK/EINT7/CSI1_D7/PH7 1
+
+PH9      GPIO-3   11       11         1
+         U7       D4       LCD1_D9/ATAD5/KP_IN1/MS_D1/EINT9/CSI1_D9/PH9 1
+
+PH10     GPIO-3   13       13         1
+         U7       A3       LCD1_D10/ATAD6/KP_IN2/MS_D2/EINT10/CSI1_D10/PH10 1
+
+PH11     GPIO-3   15       15         1
+         U7       B3       LCD1_D11/ATAD7/KP_IN3/MS_D3/EINT11/CSI1_D11/PH11 1
+
+PH12     GPIO-3   17       17         1
+         U7       C3       LCD1_D12/ATAD8/PS2_SCK1/EINT12/CSI1_D12/PH12 1
+
+PH13     GPIO-3   19       19         1
+         U7       A2       LCD1_D13/ATAD9/PS2_SDA1/SMC_RST/EINT13/CSI1_D13/PH13 1
+
+PH14     GPIO-3   21       21         1
+         U7       B2       LCD1_D14/ATAD10/KP_IN4/SMC_VPPEN/EINT14/CSI1_D14/PH14 1
+
+PH15     GPIO-3   23       23         1
+         U7       A1       LCD1_D15/ATAD11/KP_IN5/SMC_VPPPP/EINT15/CSI1_D15/PH15 1
+
+PH16     GPIO-3   25       25         1
+         U7       B1       LCD1_D16/ATAD12/KP_IN6/SMC_DET/EINT16/CSI1_D16/PH16 1
+
+PH17     GPIO-3   27       27         1
+         U7       C1       LCD1_D17/ATAD13/KP_IN7/SMC_VCCEN/EINT17/CSI1_D17/PH17 1
+
+PH18     GPIO-3   29       29         1
+         U7       C2       LCD1_D18/ATAD14/KP_OUT0/SMC_SLK/EINT18/CSI1_D18/PH18 1
+
+PH19     GPIO-3   31       31         1
+         U7       D1       LCD1_D19/ATAD15/KP_OUT1/SMC_SDA/EINT19/CSI1_D19/PH19 1
+
+PH20     GPIO-3   33       33         1
+         U7       D2       LCD1_D20/ATAOE/CAN_TX/EINT20/CSI1_D20/PH20 1
+
+PH21     GPIO-3   35       35         1
+         U7       D3       LCD1_D21/ATADREQ/CAN_RX/EINT21/CSI1_D21/PH21 1
+
+PH22     GPIO-3   37       37         1
+         U7       E1       LCD1_D22/ATADACK/KP_OUT2/SDC1_CMD/CSI1_D22/PH22 1
+
+PH23     GPIO-3   39       39         1
+         U7       E2       LCD1_D23/ATACS0/KP_OUT3/SDC1_CLK/CSI1_D23/PH23 1
+
+PH24     GPIO-3   34       34         1
+         U7       E3       LCD1_CLK/ATACS1/KP_OUT4/SDC1_D0/CSI1_PCLK/PH24 1
+
+PH25     GPIO-3   36       36         1
+         U7       E4       LCD1_DE/ATAIORDY/KP_OUT5/SDC1_D1/CSI1_FIELD/PH25 1
+
+PH26     GPIO-3   38       38         1
+         U7       F3       LCD1_HSYNC/ATAIOR/KP_OUT6/SDC1_D2/CSI1_HSYNC/PH26 1
+
+PH27     GPIO-3   40       40         1
+         U7       F4       LCD1_VSYNC/ATAIOW/KP_OUT7/SDC1_D3/CSI1_VSYNC/PH27 1
+
+PI0      GPIO-2   9        9          1
+         U7       A20      GPS_CLK/PI0 1
+
+PI1      GPIO-2   11       11         1
+         U7       B20      GPS_SIGN/PI1 1
+
+PI2      GPIO-2   13       13         1
+         U7       A19      GPS_MAG/PI2 1
+
+PI3      GPIO-2   15       15         1
+         U7       B19      PWM1/PI3   1
+
+PI4      GPIO-2   17       17         1
+         U7       A18      SDC3_CMD/PI4 1
+
+PI5      GPIO-2   19       19         1
+         U7       B18      SDC3_CLK/PI5 1
+
+PI6      GPIO-2   21       21         1
+         U7       A17      SDC3_D0/PI6 1
+
+PI7      GPIO-2   23       23         1
+         U7       B17      SDC3_D1/PI7 1
+
+PI8      GPIO-2   25       25         1
+         U7       A16      SDC3_D2/PI8 1
+
+PI9      GPIO-2   27       27         1
+         U7       B16      SDC3_D3/PI9 1
+
+PI10     GPIO-2   29       29         1
+         U7       C17      SPI0_CS0/UART5_TX/EINT22/PI10 1
+
+PI11     GPIO-2   31       31         1
+         U7       D17      SPI0_CLK/UART5_RX/EINT23/PI11 1
+
+PI12     GPIO-2   33       33         1
+         U7       C16      SPI0_MOSI/UART6_TX/EINT24/PI12 1
+
+PI13     GPIO-2   35       35         1
+         U7       D16      SPI0_MISO/UART6_RX/EINT25/PI13 1
+
+PI14     GPIO-2   37       37         1
+         U7       C15      PS2_SCK1/TCLKIN0/EINT26/SPI0_CS1/PI14 1
+
+PI15     GPIO-2   39       39         1
+         U7       D15      PS2_SDA1/TCLKIN1/EINT27/SPI1_CS1/PI15 1
+
+PI16     GPIO-2   40       40         1
+         U7       E17      EINT28/SPI1_CS0/UART2_RTS/PI16 1
+
+PI17     GPIO-2   38       38         1
+         U7       E16      EINT29/SPI1_CLK/UART2_CTS/PI17 1
+
+PI18     GPIO-2   36       36         1
+         U7       E15      EINT30/SPI1_MOSI/UART2_TX/PI18 1
+
+PI19     GPIO-2   34       34         1
+         U7       D14      EINT31/SPI1_MISO/UART2_RX/PI19 1
+
+PI20     GPIO-2   32       32         1
+         U7       E14      HSCL/UART7_TX/PS2_SCK0/PI20 1
+
+PI21     GPIO-2   30       30         1
+         U7       E13      HSDA/UART7_RX/PS2_SDA0/PI21 1
+
+RASN     U1       J3       #RAS       1
+         U7       T4       SRAS       1
+
+RESET_N  C79      2        2          1
+         C80      2        2          1
+         GPIO-3   5        5          1
+         R23      1        1          1
+         U12      25       PWROK      1
+         U7       C14      RESET#     1
+
+SA0      U1       N3       A0         1
+         U7       W4       SA0        1
+
+SA1      U1       P7       A1         1
+         U7       R4       SA1        1
+
+SA2      U1       P3       A2         1
+         U7       U4       SA2        1
+
+SA3      U1       N2       A3         1
+         U7       M4       SA3        1
+
+SA4      U1       P8       A4         1
+         U7       Y4       SA4        1
+
+SA5      U1       P2       A5         1
+         U7       N4       SA5        1
+
+SA6      U1       R8       A6         1
+         U7       V4       SA6        1
+
+SA7      U1       R2       A7         1
+         U7       M3       SA7        1
+
+SA8      U1       T8       A8         1
+         U7       AA3      SA8        1
+
+SA9      U1       R3       A9         1
+         U7       P4       SA9        1
+
+SA10     U1       L7       A10/AP     1
+         U7       L3       SA10       1
+
+SA11     U1       R7       A11        1
+         U7       W3       SA11       1
+
+SA12     U1       N7       A12/#BC    1
+         U7       P3       SA12       1
+
+SA13     U1       T3       A13        1
+         U7       Y3       SA13       1
+
+SA14     U1       T7       NC/A14     1
+         U7       R3       SA14       1
+
+SA15     U1       M7       NC         1
+         U7       AA4      SCS1       1
+
+SATA-RXM C129     1        1          1
+         U7       U20      RXM_SATA   1
+
+SATA-RXP C131     1        1          1
+         U7       U21      RXP_SATA   1
+
+SATA-TXM C128     1        1          1
+         U7       T21      TXM_SATA   1
+
+SATA-TXP C127     1        1          1
+         U7       T20      TXP_SATA   1
+
+SCK      R9       2        2          1
+         U7       V1       SCK        1
+
+SCK#     R11      2        2          1
+         U7       V2       SCK#       1
+
+SCS0     U1       L2       #CS        1
+         U7       V3       SCS0       1
+
+SD0-CLK  SD/MMC1  5        CLK/SCLK   1
+         U7       L20      SDC0_CLK/UART0_TX/PF2 1
+
+SD0-CMD  R27      1        1          1
+         SD/MMC1  3        CMD/DI     1
+         U7       L19      SDC0_CMD/JTAG_DO1/PF3 1
+
+SD0-D0   RM4      2.2      2          1
+         SD/MMC1  7        DAT0/DO    1
+         U7       M19      SDC0_D0/JTAG_DI1/PF1 1
+
+SD0-D1   RM4      3.2      2          1
+         SD/MMC1  8        DAT1/RES   1
+         U7       M20      SDC0_D1/JTAG_MS1/PF0 1
+
+SD0-D2   RM4      1.2      2          1
+         SD/MMC1  1        DAT2/RES   1
+         U7       K19      SDC0_D2/JTAG_CK1/PF5 1
+
+SD0-D3   R26      1        1          1
+         SD/MMC1  2        CD/DAT3/CS 1
+         U7       K20      SDC0_D3/UART0_RX/PF4 1
+
+SD0-DET# RM4      4.2      2          1
+         SD/MMC1  9        CP_E       1
+         U7       B6       LCD1_D1/ATAA1/UART3_RX/EINT1/CSI1_D1/PH1 1
+
+SDQM0    U1       E7       DML        1
+         U7       AC6      SDQM0      1
+
+SDQM1    U1       D3       DMU        1
+         U7       W1       SDQM1      1
+
+SDQS0    U1       F3       DQSL       1
+         U7       AB6      SDQS0      1
+
+SDQS0_N  U1       G3       #DQSL      1
+         U7       AC5      SDQS0#     1
+
+SDQS1    U1       C7       DQSU       1
+         U7       AB1      SDQS1      1
+
+SDQS1_N  U1       B7       #DQSU      1
+         U7       AA2      SDQS1#     1
+
+SD_VCC   C96      2        2          1
+         C98      2        2          1
+         L4       2        2          1
+         SD/MMC1  4        VDD        1
+
+SRST     R12      2        2          1
+         U7       AA6      SRST       1
+
+TPX1     C113     2        2          1
+         LCD_CON  37       37         1
+         U7       Y22      XP_TP      1
+
+TPX2     C114     2        2          1
+         LCD_CON  38       38         1
+         U7       AA22     XN_TP      1
+
+TPY1     C115     2        2          1
+         LCD_CON  39       39         1
+         U7       Y23      YP_TP      1
+
+TPY2     C116     2        2          1
+         LCD_CON  40       40         1
+         U7       AA23     YN_TP      1
+
+TVIN0    GPIO-4   5        5          1
+         U7       AC18     TVIN0      1
+
+TVIN1    GPIO-4   7        7          1
+         U7       AB18     TVIN1      1
+
+TVIN2    GPIO-4   9        9          1
+         U7       AA17     TVIN2      1
+
+TVIN3    GPIO-4   11       11         1
+         U7       Y17      TVIN3      1
+
+TVOUT3   GPIO-4   3        3          1
+         U7       AB17     TVOUT3     1
+
+TWI0-SCK GPIO-2   5        5          1
+         R62      1        1          1
+         U12      2        SCK        1
+         U7       A15      TWI0_SCK/PB0 1
+
+TWI0-SDA GPIO-2   7        7          1
+         R64      1        1          1
+         U12      1        SDA        1
+         U7       B15      TWI0_SDA/PB1 1
+
+UART0-RX D2       A        A          1
+         GPIO-1   26       26         1
+         R49      1        1          1
+         U7       B7       UART0_RX/IR1_RX/PB23 1
+
+UART0-TX GPIO-1   28       28         1
+         U7       A7       UART0_TX/IR1_TX/PB22 1
+         UART0    1        1          1
+
+UBOOT_SEL RECOVERY 2_1      0          1
+         U7       W8       UBOOT_SEL  1
+
+UDM0     U7       N20      DM0        1
+         USB_OTG  D-       D-         1
+
+UDM1     U7       P20      DM1        1
+         USB_HOST1 2        2          1
+
+UDM2     U7       R20      DM2        1
+         USB_HOST2 2        2          1
+
+UDP0     U7       N21      DP0        1
+         USB_OTG  D+       D+         1
+
+UDP1     U7       P21      DP1        1
+         USB_HOST1 3        3          1
+
+UDP2     U7       R21      DP2        1
+         USB_HOST2 3        3          1
+
+USB0-DRV PB9/PH7_USB 2        2          1
+         R35      2        2          1
+         U12      6        N_VBUSEN   1
+         U9       4        EN         1
+
+USB0-IDDET R42      2        2          1
+         U7       B5       LCD1_D4/ATAD0/UART4_TX/EINT4/CSI1_D4/PH4 1
+         USB_OTG  ID       ID         1
+
+USB0-VBUSDET C109     1        1          1
+         R33      1        1          1
+         R37      2        2          1
+         U7       C5       LCD1_D5/ATAD1/UART4_RX/EINT5/CSI1_D5/PH5 1
+
+USB1-DRV R40      2        2          1
+         U10      4        EN         1
+         U7       A4       LCD1_D6/ATAD2/UART5_TX/MS_BS/EINT6/CSI1_D6/PH6 1
+
+USB2-DRV R47      2        2          1
+         U11      4        EN         1
+         U7       A5       LCD1_D3/ATAIRQ/UART3_CTS/EINT3/CSI1_D3/PH3 1
+
+V+       1.5V     1        PP         1
+         C1       1        1          1
+         C10      2        2          1
+         C11      2        2          1
+         C12      2        2          1
+         C175     1        1          1
+         C177     1        1          1
+         C178     1        1          1
+         C19      2        2          1
+         C2       1        1          1
+         C20      2        2          1
+         C21      2        2          1
+         C22      2        2          1
+         C23      2        2          1
+         C24      2        2          1
+         C25      2        2          1
+         C26      2        2          1
+         C27      2        2          1
+         C3       2        2          1
+         C38      2        2          1
+         C39      2        2          1
+         C4       2        2          1
+         C40      2        2          1
+         C41      2        2          1
+         C42      2        2          1
+         C43      2        2          1
+         C44      2        2          1
+         C45      2        2          1
+         C46      2        2          1
+         C5       2        2          1
+         C6       2        2          1
+         C7       2        2          1
+         C8       2        2          1
+         C9       2        2          1
+         L13      2        2          1
+         R2       2        2          1
+         R3       2        2          1
+         R68      1        1          1
+         R7       2        2          1
+         U1       A1       VDDQ       1
+         U1       A8       VDDQ       1
+         U1       B2       VDD        1
+         U1       C1       VDDQ       1
+         U1       C9       VDDQ       1
+         U1       D2       VDDQ       1
+         U1       D9       VDD        1
+         U1       E9       VDDQ       1
+         U1       F1       VDDQ       1
+         U1       G7       VDD        1
+         U1       H2       VDDQ       1
+         U1       H9       VDDQ       1
+         U1       K2       VDD        1
+         U1       K8       VDD        1
+         U1       N1       VDD        1
+         U1       N9       VDD        1
+         U1       R1       VDD        1
+         U1       R9       VDD        1
+         U7       G5       VCC_DRAM   1
+         U7       H5       VCC_DRAM   1
+         U7       L5       VCC_DRAM   1
+         U7       M5       VCC_DRAM   1
+         U7       R5       VCC_DRAM   1
+         U7       T5       VCC_DRAM   1
+         U7       W5       VCC_DRAM   1
+         U7       W6       VCC_DRAM   1
+         U7       W7       VCC_DRAM   1
+         U7       Y6       VCC_DRAM   1
+
+VCC      3.3V     1        PP         1
+         C104     2        2          1
+         C105     2        2          1
+         C106     2        2          1
+         C119     2        2          1
+         C121     2        2          1
+         C137     1        1          1
+         C139     2        2          1
+         C165     1        1          1
+         C168     1        1          1
+         C169     2        2          1
+         C170     1        1          1
+         C172     2        2          1
+         C183     1        1          1
+         C184     1        1          1
+         C185     1        1          1
+         C56      2        2          1
+         C57      2        2          1
+         C58      2        2          1
+         C65      2        2          1
+         C66      2        2          1
+         C67      2        2          1
+         C68      2        2          1
+         C69      2        2          1
+         C70      2        2          1
+         C71      2        2          1
+         C72      2        2          1
+         C73      2        2          1
+         C83      2        2          1
+         C84      2        2          1
+         C94      2        2          1
+         C95      2        2          1
+         D1       A        A          1
+         GPIO-1   3        3          1
+         GPIO-2   3        3          1
+         GPIO-3   3        3          1
+         GPIO-4   1        1          1
+         L1       2        2          1
+         L15      2        2          1
+         L2       2        2          1
+         L4       1        1          1
+         LAN      AG       AG         1
+         LCD_CON  3        3          1
+         R15      1        1          1
+         R16      2        2          1
+         R17      1        1          1
+         R18      1        1          1
+         R20      1        1          1
+         R23      2        2          1
+         R26      2        2          1
+         R27      2        2          1
+         R42      1        1          1
+         R43      2        2          1
+         R44      2        2          1
+         R45      2        2          1
+         R46      2        2          1
+         R49      2        2          1
+         R62      2        2          1
+         R64      2        2          1
+         R71      1        1          1
+         RM1      1.2      2          1
+         RM1      3.2      2          1
+         RM2      1.1      1          1
+         RM4      1.1      1          1
+         RM4      2.1      1          1
+         RM4      3.1      1          1
+         RM4      4.1      1          1
+         RM5      1.2      2          1
+         RM5      2.2      2          1
+         RM5      4.2      2          1
+         U2       37       ANE        1
+         U2       38       DUPLEX     1
+         U2       39       SPEED      1
+         U2       41       LDPS       1
+         U2       44       MII/SNIB   1
+         U3       8        VCC        1
+         U4       12       VCC        1
+         U4       37       VCC        1
+         U7       AB19     HPVCCIN    1
+         U7       H10      VCC        1
+         U7       H15      VCC        1
+         U7       H19      VCC_NAND   1
+         U7       H8       VCC        1
+         U7       H9       VCC        1
+         U7       J10      VCC        1
+         U7       J14      VCC        1
+         U7       J19      VCC_NAND   1
+         U7       J8       VCC        1
+         U7       J9       VCC        1
+         U7       L15      UVCC_T     1
+         U7       L16      UVCC_C     1
+         U7       N19      VCC_CARD   1
+         U7       P16      PLLVP25    1
+         U7       T13      VP_HDMI    1
+         U7       W12      VCC_LVDS   1
+         U7       W13      VCC_LVDS   1
+         U7       W14      VCC_LVDS   1
+         U7       W15      VCC33_TVOUT 1
+         U7       W16      VCC33_TVIN 1
+         VR1      1        VIN        1
+         VR1      3        CE         1
+
+VCC/2    1.2V_CPU 1        PP         1
+         C142     1        1          1
+         C143     1        1          1
+         C48      2        2          1
+         C49      2        2          1
+         C50      2        2          1
+         C51      2        2          1
+         C52      2        2          1
+         C53      2        2          1
+         L11      2        2          1
+         U12      10       DCDC2      1
+         U7       H11      VDD_CPU    1
+         U7       H12      VDD_CPU    1
+         U7       H13      VDD_CPU    1
+         U7       H14      VDD_CPU    1
+         U7       J12      VDD_CPU    1
+         U7       J13      VDD_CPU    1
+
+VCCINT   1.2V_INT 1        PP         1
+         C122     2        2          1
+         C123     2        2          1
+         C146     1        1          1
+         C147     1        1          1
+         C15      2        2          1
+         C155     2        2          1
+         C156     2        2          1
+         C16      2        2          1
+         C17      2        2          1
+         C18      2        2          1
+         C28      2        2          1
+         C29      2        2          1
+         C30      2        2          1
+         C31      2        2          1
+         C32      2        2          1
+         C33      2        2          1
+         C34      2        2          1
+         C35      2        2          1
+         C36      2        2          1
+         C37      2        2          1
+         L12      2        2          1
+         U12      17       DCDC3      1
+         U7       J15      VDD_INT    1
+         U7       J16      VDD_INT    1
+         U7       K10      VDD_INT    1
+         U7       K15      VDD_INT    1
+         U7       K16      ULVDD      1
+         U7       K9       VDD_INT    1
+         U7       L8       VDD_INT    1
+         U7       L9       VDD_INT    1
+         U7       M15      VDD12_SATA 1
+         U7       M16      VDD12_SATA 1
+         U7       M8       VDD_DLL    1
+         U7       N9       VDD_DLL    1
+         U7       P9       VDD_DLL    1
+         U7       R10      VDD_INT    1
+         U7       R9       VDD_INT    1
+         U7       T8       VDD_INT    1
+
+VDD      2.5V     1        PP         1
+         C151     2        2          1
+         C152     2        2          1
+         C162     1        1          1
+         C164     2        2          1
+         C166     1        1          1
+         C167     1        1          1
+         U7       N15      VDD25_SATA 1
+         U7       N16      VDD25_SATA 1
+         U7       W17      VDD25_TVIN 1
+         VR1      5        VOUT       1
+
+VDD_RTC  C153     1        1          1
+         C92      2        2          1
+         C93      2        2          1
+         U12      28       LDO1       1
+         U7       K8       RTC_VDD    1
+
+VGA-B    GPIO-1   22       22         1
+         U7       AB16     TVOUT1/VGA-B 1
+
+VGA-G    GPIO-1   20       20         1
+         U7       AC16     TVOUT0/VGA-G 1
+
+VGA-R    GPIO-1   24       24         1
+         U7       AC17     TVOUT2/VGA-R 1
+
+VINT     C150     2        2          1
+         U12      26       VINT       1
+
+VMIC     GPIO-1   12       12         1
+         U7       AA21     VMIC       1
+
+VPP      3.0VA    1        PP         1
+         C158     1        1          1
+         C97      2        2          1
+         R10      1        1          1
+         U12      12       LDO2       1
+         U13      1        EN         1
+         U7       T19      AVCC       1
+
+WEN      U1       L3       #WE        1
+         U7       T3       SWE        1
+
+XTALI    C90      2        2          1
+         Q3       2        2          1
+         U7       N23      CLK24M_IN  1
+
+XTALI1   C63      2        2          1
+         Q1       2        2          1
+         U2       46       X1         1
+
+XTALO    C91      2        2          1
+         Q3       1        1          1
+         U7       N22      CLK24M_OUT 1
+
+XTALO1   C64      2        2          1
+         Q1       1        1          1
+         U2       47       X2         1
+
