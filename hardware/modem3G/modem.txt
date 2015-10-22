@@ -1,0 +1,37 @@
+G modem HSDPA	
+Price	15.00 EUR
+
+MOD-USB3G would also work with your laptop and desktop computer - the drivers are located inside the unit.
+
+Note that due to impulse current surges (up to 2A) you might be unable to use MOD-USB3G with other Olimex boards out-of-the-box. You would either need to make hardware adjustements or purchase additional adapter called USB-CAP. For more information refer to the notice in the FAQ section at the bottom of the page.  
+
+FEATURES
+    SIMcard holder
+    microSD card included
+    HSUPA/HSDPA/WCDMA-850-1900-2100Mhz
+    GSM/GPRS/EDGE 850-900-1800-1900Mhz
+    based on Qualcomm MSM6280 chip
+    HSUPADP 7.2Mbps Up 5.76Mbps
+    HSDPA DP 7.2Mbps UP: 384kbps
+    EDGE: DP 236.8kbps
+    supports voice calls and SMS
+    USB
+    supported in the official A13/A10S/A10/A20 Debian and Android images
+    size: 88x26x12mm
+
+
+
+DOCUMENTS
+
+    AT reference document, suitable for MOD-USB3G
+
+    In case of unstable behavior while using the 3G modem with OLinuXino and SOM boards please refer to the image linked
+
+-------------------------
+
+	USB-CAP low ESR filter for current hungry devices	
+Price	3.00 EUR
+10 - 49 pcs	2.70 EUR
+50 - 10000 pcs	2.40 EUR
+MOD-USB3G and other similar devices have high current consumption peaks during initialization (up to 2A) and some USB hosts have hard time providing such surge currents. We designed USB-CAP (contains 2 x 1000uF capacitors) with low ESR to remove these power supply glitches.
+USB-CAP provides USB supply filtering to enable the operation of current-hungry devices with weak USB hosts. 

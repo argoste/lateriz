@@ -1,0 +1,11 @@
+
+	40-pin ribbon cable suitable for OLinuXino boards with 0.1'' step connector	
+Price	2.00 EUR
+
+
+40-pin ribbon cable suitable for OLinuXino boards with 0.1'' step connector	
+Price	2.00 EUR
+10 - 49 pcs	1.80 EUR
+50 - 10000 pcs	1.60 EUR
+
+This cable can be used to connect LCD displays to OLinuXino boards, both sides of the cable are equipped with 40-pin 0.1'' step female headers

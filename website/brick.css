@@ -1,0 +1,32 @@
+body {
+  padding:1em;
+  background: #EFEEE6;
+  color: #000000;
+}
+a:link {
+  text-decoration: none;
+  color: #F7691D;
+}
+a:visited {
+  color: #844B33;
+ }
+
+figure{
+  margin-top: 4em;
+  border-top: dashed medium #4D4D4D;
+}
+*/
+img {
+  width: inherit;
+}
+embed {
+  width: inherit;
+}*/
+
+.logo {
+  width: 8%;
+}
+
+.screenshot {
+  border: medium double black;
+}

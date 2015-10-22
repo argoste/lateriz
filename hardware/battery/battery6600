@@ -1,0 +1,21 @@
+ BATTERY-LIPO6600mAh
+BATTERY-LIPO6600mAh
+Rechargable LI-PO battery 3.7V 6600mAh with JST connector	
+Price	11.95 EUR
+10 - 49 pcs	10.76 EUR
+50 - 10000 pcs	9.56 EUR
+
+This is a rechargeable Li-Po high discharge current battery with JST connector ready to plug to:
+OLIMEXINO-328, OLIMEXINO-STM32, PIC32-PINGUINO, PIC32-PINGUINO-OTG, DUINOMITE and DUINOMITE-MEGA
+
+The battery has overcharge and short circuit protection.
+FEATURES
+
+    Charge voltage 4.2V, nominal voltage 3.7V, cut-off voltage 3.0V
+    Recommended charge current 1320mAh
+    Max charge current 3300mAh
+    Recommended discharge current 3300mAh
+    Max discharge current 6600mAh
+    Impedance 60mOhm at 1KHz
+    Operating temperature: at charge 0-55C, at discharge -25C+60C
+    Capacity loss after 500 cycles full charge/discharge at 20C: 20%

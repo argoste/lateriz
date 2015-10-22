@@ -1,0 +1,12 @@
+4.3 inch LCD screen with backlight and resistive touch screen panel, compatible with OLinuXino boards
+Price	35.00 EUR
+A 4.3" LCD display with a resistive touch screen component, compatible with Olimex A10, A13, A10s, A20 Allwinner development boards with either 0.1" or 0.05" LCD connector. Suitable for Linux and Android video output. 
+
+
+    TFT Panel Features:
+    Construction: 4.3" color TFT-LCD, White LED Backlight and PCB.
+    Resolution (pixel): 480x272
+    Touch screen
+    Two interface connectors: both 40 pin 0.1" pitch and 40 pin 0.05" pitch
+    Power supply voltage: 5V external power jack or 40 pin LCD connector.
+    Note that the cable to connect to your board is sold separately

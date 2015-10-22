@@ -1,0 +1,17 @@
+MOD-WIFI-RTL8188 
+
+    Features an embedded BL-8188-8M module with RTL8188CTV
+    Operates in 2.4 GHz frequency bands
+    1x1 MIMO technology improves effective throughput and range over
+    Compliant with 802.11 n/g/b standards
+    FCC approved
+    Data rates: up to 150Mbps
+    802.11e-compatible bursting and I standards
+    BPSK, QPSK, 16 QAM, 64 QAM modulation schemes
+    WEP, TKIP, and AES, WPA, WPA2 hardware encryption schemes
+    Standard USB type A connector
+    On-board PCB antenna
+    5V/3.3V operation modes via SMD jumper
+    4 test pads for easy tracking the supply, d-, d+, and GND
+    PCB: FR-4, 1.00 mm (0,039"), solder mask, silkscreen component print
+    Dimensions: 65.15x20.38 mm (2.56x0.80")
