@@ -1,18 +1,16 @@
 lateriz
 =======
 
-The lateriz initiative aims at making better portable devices.
+I began the the lateriz initiative because I want a better portable device for 
+my everyday use. I hope it can be useful for others as well.
+You can find more information at [my home page](http://www.argo3.altervista.org)
 
-For more information see the LAN website at
-[](http://192.168.0.200/~ste/lateriz/website/)
-
-
-
+argoste
 
 
 Credits
 -------
 
-Main contributor is Stefano Carlesso      http://argo3.altervista.org
+Main contributor is Stefano «argoste» Carlesso   <stefanocarlesso@gmx.com>
 
-CollapsibleLists.js by Stephen Morley - http://code.stephenmorley.org
+CollapsibleLists.js by Stephen Morley - <http://code.stephenmorley.org>
