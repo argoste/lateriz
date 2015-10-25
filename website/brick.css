@@ -13,7 +13,12 @@ a:visited {
 
 figure{
   margin-top: 4em;
-  border-top: dashed medium #4D4D4D;
+  padding-top: 1em;
+  border-top: double thin #BFBFBF;
+}
+
+figcaption {
+  margin-bottom: 1em;
 }
 */
 img {

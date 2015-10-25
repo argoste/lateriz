@@ -54,6 +54,12 @@ batteries, 3G modem etc.</p>
 	<img src="parametric-solid-model.png">
 
 </figure>
+
+<figure>
+	<figcaption>Preliminary study. An OlinuXino Lime A10, a 4.3 inches LCD display,
+	 an aluminium heatsink, a 6600 mAh LiPO battery and clamshell chassis.</figcaption>
+	<img src="small-clamshell.png" alt="study for a small clamshell">
+</figure>
 HERE;
 require_once("common.php");
 ?>
