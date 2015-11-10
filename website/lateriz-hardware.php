@@ -19,8 +19,7 @@ batteries, 3G modem etc.</p>
 <figure>
   <figcaption>
     <ul>
-      <li>This 3d model of OLinuXino was made by <a href="https://www.thingiverse.com/Lutino">
-    Lutino [external link]</a>;</li>
+      <li>A 3d model of an OLinuXino A10</li>
     <li>a credit card for size comparison;</li>
     <li>aluminium heatsink;</li>
     <li>a beefy 6600 mAh LiPo battery (very rough assessment: 10 hours of full usage).</li>

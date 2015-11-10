@@ -1,9 +1,8 @@
 <?php
-$page_title = "Home Page";
+$page_title = "The Lateriz Project";
 $page_author = "Stefano Carlesso";
 $page_content = <<< MYCONTENT
-  <h1>The Lateriz project</h1>
-  <p>Welcome to the home of lateriz Project. Feel free to navigate the links above.</p>
+  <p>Welcome to the Lateriz Project. Feel free to navigate the links above.</p>
   <figure>
     <figcaption>
       <h2>The house analogy</h2>

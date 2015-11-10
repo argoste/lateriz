@@ -1,4 +1,5 @@
 <?php
+$page_title = "Credits";
 $page_content = <<< PAGE_CONTENT
 <section>
 <h2>For the website</h2>
@@ -8,5 +9,13 @@ $page_content = <<< PAGE_CONTENT
   <li>Favicons generated using <a href="http://realfavicongenerator.net/">Real Favicon Generator</a></li>
 </ul>
 </section>
+<section>
+<h2>For the blueprints</h2>
+<ul>
+  <li>The 3d model of OLinuXino was made by <a href="https://www.thingiverse.com/Lutino">
+    Lutino [external link]</a>;</li>
+</ul>
+</section>
 PAGE_CONTENT;
+require_once("common.php");
 ?>
